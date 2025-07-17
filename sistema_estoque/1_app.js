@@ -71,4 +71,7 @@ export function Menu() {
     }
 }
 
+console.log()
+console.log(`Não há itens no estoque!`)
+console.log()
 Menu();

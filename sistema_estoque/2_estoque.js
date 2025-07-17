@@ -6,7 +6,8 @@ export let Estoque = []
 export let EstoqueQtd = []
 
 export function AddEstoque() {
-    console.log("Informe o nome do produto:")
+    console.log()
+    console.log(`Informe o nome do produto:`)
     let item = ler()
     Estoque.push(item)
 

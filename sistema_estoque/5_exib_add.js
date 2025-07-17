@@ -4,6 +4,7 @@ import prompt from "prompt-sync"
 let ler = prompt ();
 
 export function Exibir_Data() {
+    console.log()
     console.log("Informe a posição do item a ser exibido:")
     let pos_item = Number(ler());
 

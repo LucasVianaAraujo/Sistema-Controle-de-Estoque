@@ -4,10 +4,11 @@ import prompt from "prompt-sync"
 let ler = prompt();
 
 export function Remover() {
+        console.log()
         console.log("Informe a posição do item:")
         let pos_remove = Number(ler());
 
-        console.log("Informe a quantidade de itens a serem removidos:")
+        console.log("Informe a quantidade de itens a serem removidos de: " + Estoque[pos_remove])
         let qtd_remove = Number(ler());
 
         EstoqueQtd[pos_remove] -= qtd_remove // pesquisar pra que serve o "-="
