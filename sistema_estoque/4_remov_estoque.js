@@ -4,7 +4,7 @@ import prompt from "prompt-sync"
 let ler = prompt();
 
 export function Remover() {
-        console.log("Informe a posição do item a ser removido:")
+        console.log("Informe a posição do item:")
         let pos_remove = Number(ler());
 
         console.log("Informe a quantidade de itens a serem removidos:")
